@@ -1,0 +1,59 @@
+header{
+    background-image:linear-gradient(
+        to right bottom,
+        rgba(255, 245, 226, 0.8),
+        rgba(254, 231, 186, 0.8)), url(./../images/header.jpg); 
+
+            /* rgba(247, 236, 190, 0.803), rgba(238, 220, 159, 0.8))*/
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+
+    position: relative;
+    grid-area: head;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header_navbar{
+    margin:3rem 5rem;
+    font-weight: 600;
+    
+}
+
+.link-header{
+   font-size: 1.8rem;
+   padding: 1rem; 
+    transition: all .3s ;
+}
+.link-header:link,
+.link-header:visited{
+    color: #8c6312;
+    text-decoration: none;
+}
+.link-header:hover,
+.link-header:active,
+.link-header:focus{
+    color: #e49903;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+
+    outline: none;
+}
+
+.header_navbar-item{
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.blog-title{
+    padding-top: 5rem;
+    text-align: center;
+    color: #e49903;
+    font-size: 2rem;
+}
+

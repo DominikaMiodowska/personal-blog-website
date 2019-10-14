@@ -1,0 +1,14 @@
+{
+  "name": "personal-blog-website",
+  "version": "1.0.0",
+  "description": "Personal Blog Website",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "live-server"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "Dominika Miodowska",
+  "license": "ISC"
+}
