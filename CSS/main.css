@@ -1,16 +1,16 @@
 article{
     grid-area: main;
+    margin: 8rem 10rem;
 }
 .post_card{
     width: 75%;
     min-height: 30vh;
     margin: 3rem auto;
     border:none;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 1.5rem 4rem rgba(106, 103, 103, 0.1);
     background-size: cover;
     background-position:center;
-    background-repeat: no-repeat;
 
 }
 .post-card_box{
@@ -36,6 +36,25 @@ article{
     font-size: 1.6rem;
     
 } 
+.post_card-button{
+    background-color: #855b2b;
+    color: #fae7d6;
+    border: none;
+    border-radius: 20px;
+    margin:3rem 0;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    text-align: center;
+    text-decoration: none;
+    transition: transform .3s;
+    display: block;
+    width: 20rem;
+}
+.post_card-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
 
 
 .post_card_swiss{

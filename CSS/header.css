@@ -1,4 +1,7 @@
 header{
+    grid-row:1/2;
+    grid-area: head;
+
     background-image:linear-gradient(
         to right bottom,
         rgba(255, 245, 226, 0.8),
@@ -10,7 +13,6 @@ header{
     background-repeat: no-repeat;
 
     position: relative;
-    grid-area: head;
 
 }
 nav{
