@@ -1,5 +1,64 @@
 article{
     grid-area: main;
-    background-color: yellow;
-    /* height: 30rem; */
+}
+.post_card{
+    width: 75%;
+    min-height: 30vh;
+    margin: 3rem auto;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0 1.5rem 4rem rgba(106, 103, 103, 0.1);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+.post-card_box{
+    width: 50%;
+    padding: 6rem;
+    color: #855b2b;
+    font-size: 2rem;
+   
+}
+.post_card_box-heading,
+.post_card_box-text{
+    padding-bottom: 2rem;
+}
+.post_card_box-date{
+    font-style: italic;
+    font-size: 1.6rem;
+   
+}
+.post-link:link,
+.post-link:visited{
+    color: #9b6e3a;
+    text-decoration: none;
+    font-size: 1.6rem;
+    
+} 
+
+
+.post_card_swiss{
+    background-image: linear-gradient(105deg,
+                                    rgba(234, 221, 196, 0.9) 0%,
+                                    50%, transparent 50%),
+                                    url(./../images/swiss.jpg);/*Photo by Chris Holgersson on Unsplash*/
+   
+   
+}
+.post_card_poland{
+    background-image: linear-gradient(105deg,
+                                    rgba(234, 221, 196, 0.9) 0%,
+                                    50%, transparent 50%),
+                                    url(./../images/poland.jpg);/*Photo by Kamil Gliwiński on Unsplash*/
+   
+   
+}
+.post_card_usa{
+    background-image: linear-gradient(105deg,
+                                    rgba(234, 221, 196, 0.9) 0%,
+                                    50%, transparent 50%),
+                                    url(./../images/usa.jpg);/*Photo by Luca Bravo on Unsplash*/
+   
+   
 }

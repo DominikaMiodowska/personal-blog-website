@@ -27,7 +27,7 @@ nav{
 .link-header{
    font-size: 1.8rem;
    padding: 1rem; 
-    transition: all .3s ;
+   transition: all .3s ;
 }
 .link-header:link,
 .link-header:visited{
@@ -51,7 +51,7 @@ nav{
 }
 
 .blog-title{
-    padding-top: 5rem;
+    padding-top: 8rem;
     text-align: center;
     color: #e49903;
     font-size: 2rem;
