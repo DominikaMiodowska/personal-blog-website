@@ -98,7 +98,7 @@ article{
 .post_text-box-btn{
     display: flex;
     justify-content: center;
-    padding: 10rem 0 5rem;
+    padding-bottom: 8rem;
 }
 
 .post_text-btn,
@@ -117,6 +117,8 @@ article{
     font-size: 2rem;
     color: #fae7d6;
     background-color: #855b2b;
+    border-radius: 20px;
+    padding: 1rem 3rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
     transform:translateY(-2px);
 }
