@@ -2,12 +2,37 @@
 .author{
     grid-column: center-start / center-end;
     grid-row: 2 / 3;
+    margin: 5rem 0;
+    padding: 5rem;
 }
+.author_shape{
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem ;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    transform: translateX(-2rem);
+    overflow: hidden;
+        border-radius: 50%;
 
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
 
-
-
-
+}
+.author_shape-img{
+    width: 100%;
+    backface-visibility: hidden;
+}
+.author_text{
+padding-top: 2rem;
+}
+.author_text-company{
+    padding-bottom: 1rem;
+}
 
 /*  ################         POST CONTENT        ############# */
 

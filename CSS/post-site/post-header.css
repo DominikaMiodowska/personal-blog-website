@@ -39,11 +39,3 @@ blockquote p::before {
 blockquote p::after {
     content: '\201D';
 }
-
-.author{
-    background-color: grey;
-}
-
-.post-content{
-    background-color: #ad87ad;
-}
