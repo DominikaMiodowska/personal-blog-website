@@ -1,0 +1,4 @@
+.post-footer{
+    grid-column: full-start / full-end;
+    grid-row: 4 /-1;
+}

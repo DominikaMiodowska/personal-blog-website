@@ -1,22 +1,30 @@
 .post-header{
+    grid-column: full-start / full-end;
+    grid-row: 1 / 2;
+
     background-image:linear-gradient(
         to right bottom,
-        rgba(255, 245, 226, 0.5),
-        rgba(254, 231, 186, 0.5)), url(./../../images/swiss.jpg); 
+        rgba(255, 245, 226, 0.6),
+        rgba(254, 231, 186, 0.6)), url(./../../images/swiss.jpg); 
 
            
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
-
     position: relative;
-   
+
+    display: grid;
+    grid-template-rows: 10rem 30rem;
+    grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content,14rem)[col-end]) [center-end] 1fr [full-end];
 }
 .post-title{
-    color: #7db808;
+    color: #2a8c0f;
     
 }
-
+nav{
+    grid-column: center-start / center-end;
+    grid-row: 1 / 2;
+}
 
 .author{
     background-color: grey;

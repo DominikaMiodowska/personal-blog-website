@@ -1,6 +1,6 @@
 .blog-header{
-    grid-row:1/2;
-    grid-area: head;
+    grid-column: full-start / full-end;
+    grid-row: 1 / 2;
 
     background-image:linear-gradient(
         to right bottom,
@@ -11,13 +11,19 @@
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
-
     position: relative;
+
+    display: grid;
+    grid-template-rows: 10rem 30rem;
+    grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content,14rem)[col-end]) [center-end] 1fr [full-end];
 
 }
 nav{
     display: flex;
     justify-content: space-between;
+    grid-column: center-start / center-end;
+    grid-row: 1 / 2;
+
     
 }
 .header_navbar{
@@ -53,9 +59,12 @@ nav{
 }
 
 .title{
-    margin-top: 8rem;
+    margin-top: 4rem;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+
+    grid-column: center-start / center-end;
+    grid-row: 2 / -1;
     
 }
 .blog-title{

@@ -1,11 +1,11 @@
 article{
-    grid-area: main;
-    margin: 8rem 10rem;
+    grid-column: center-start / center-end;
+    grid-row: 2 / 3;
 }
 .post_card{
-    width: 75%;
+    width:95%;
     min-height: 30vh;
-    margin: 3rem auto;
+    margin: 8rem auto ;
     border:none;
     border-radius: 10px;
     box-shadow: 0 1.5rem 4rem rgba(106, 103, 103, 0.1);

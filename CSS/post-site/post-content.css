@@ -1,0 +1,17 @@
+/*  ################         AUTHOR         ############# */
+.author{
+    grid-column: center-start / center-end;
+    grid-row: 2 / 3;
+}
+
+
+
+
+
+
+/*  ################         POST CONTENT        ############# */
+
+article{
+    grid-column: center-start / center-end;
+    grid-row: 3 / 4;
+}
