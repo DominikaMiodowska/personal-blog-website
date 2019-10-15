@@ -1,4 +1,4 @@
-header{
+.blog-header{
     grid-row:1/2;
     grid-area: head;
 
@@ -52,13 +52,18 @@ nav{
     margin-left: 1rem;
 }
 
-.blog-title{
-    padding-top: 8rem;
+.title{
+    margin-top: 8rem;
     text-align: center;
-    color: #e49903;
     font-size: 2.5rem;
+    
 }
-.blog-title-text{
+.blog-title{
+    color: #e49903;
+
+}
+.blog-title-text,
+.post-title-text{
     font-weight: 300;
 }
 
