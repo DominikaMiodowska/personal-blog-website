@@ -116,5 +116,37 @@ article{
 
 /* ###########      TOURIST SECTION CARDS     ########### */
 .tourist{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 7rem;
+}
 
+.tourist-card{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid #f5eddc; 
+    box-shadow: 0 1.5rem 4rem rgba(106, 103, 103, 0.1);
+       
+}
+.tourist_img{
+    width: 100%;
+    grid-row: 1/2;
+    grid-column: 1/-1;
+    z-index: 1;
+}
+.tourist_name{
+    grid-row: 1/2;
+    grid-column: 1/-1;
+    justify-self: center;
+    align-self: end;
+    z-index:2;
+    width: 80%;
+    text-align: center;
+    background-color:rgba(255, 245, 226, 0.8); 
+    padding: 1.2rem;
+    font-size: 1.6rem;  
+}
+.tourist_text{
+    text-align: justify;
+    padding: .5rem;
 }
