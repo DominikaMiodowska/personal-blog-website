@@ -17,10 +17,10 @@
     grid-template-rows: 10rem 30rem;
     grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content,14rem)[col-end]) [center-end] 1fr [full-end];
 }
-nav{
+/* nav{
     grid-column: center-start / center-end;
     grid-row: 1 / 2;
-}
+} */
 .post-title{
     color: #2a8c0f;    
 }

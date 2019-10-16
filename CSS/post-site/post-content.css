@@ -198,9 +198,11 @@ article{
     border-radius: 5px;
     color: #724e24;
     padding: .5rem 1rem;
+    text-align: center;
     margin: 4rem 0 2rem;;
     display: flex;
-    width: 11rem;
+    width: 12rem;
+    font-weight: 600;
     transition: transform .3s;
 
 }
