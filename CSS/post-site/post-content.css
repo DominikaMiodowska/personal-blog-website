@@ -1,5 +1,5 @@
 /*  ################         AUTHOR         ############# */
-.author{
+#author{
     
     grid-column: center-start / center-end;
     grid-row: 2 / 3;
@@ -7,7 +7,8 @@
     margin: 5rem 0 2rem;
     padding: 5rem;
 }
-.author_shape{
+.author_shape,
+.triva_shape{
     width: 15rem;
     height: 15rem;
     margin: 2rem ;
@@ -43,20 +44,77 @@ article{
     grid-row: 3 / 4;
 }
 .break-line{
-    width: 30rem;
+    width: 25%;
     height: 1px;
-    border-top: 1px solid rgb(203, 199, 199);
-    margin: 0 auto 5rem;
+    border-top: 1px solid #dad7d0;
+    margin: 0 auto ;
 }
 
 .post-content{
     margin-bottom: 10rem;
 }
-.about_heading{
-    font-size: 2rem;
+.content{
+    padding: 5rem 3rem;
+}
+.post_heading{
+    font-size: 3rem;
     text-align: center;
-    padding-bottom: 3rem;
+    margin-bottom: 5rem;
+    color: #724e24;
+    /* border-bottom: 1px solid #724e24; */
 }
 .about_text{
     text-align: justify;
+}
+
+/* ###########      TRIVA SECTION CARDS     ########### */
+.triva_card{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    padding: 5rem;
+    border: 1px solid #f5eddc;
+    border-radius: 15px;
+    box-shadow: 0 1.5rem 4rem rgba(106, 103, 103, 0.1);
+}
+.triva_card:hover .triva_shape-caption{
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+.triva_card:hover .triva_shape-img{
+    transform: translateX(-4rem) scale(1.25);
+    filter: blur(3px) brightness(80%);
+}
+
+.triva_shape-img{
+    width: 160%;
+    transform: translateX(-5rem) scale(1.1); 
+    backface-visibility: hidden;
+    transition: all .5s;
+ }
+.triva_shape-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    color: #ffffff;
+    font-size: 1.7rem;
+    text-align: center;
+    opacity: 0;
+    transition: all .5s;
+    backface-visibility: hidden;
+    
+}
+
+
+.triva_card-text{
+    text-align: justify;
+}
+
+
+/* ###########      TOURIST SECTION CARDS     ########### */
+.tourist{
+
 }

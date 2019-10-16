@@ -39,7 +39,8 @@ nav{
 }
 .link-header:link,
 .link-header:visited{
-    color: #8c6312;
+   color: #724e24;
+    /* color: #8c6312; */
     text-decoration: none;
 }
 .link-header:hover,
