@@ -46,8 +46,9 @@ article{
 .break-line{
     width: 25%;
     height: 1px;
-    border-top: 1px solid #dad7d0;
-    margin: 0 auto ;
+    border-top: 2px solid #dad7d0;
+    margin: auto ;
+    z-index: 3;
 }
 
 .post-content{
@@ -149,4 +150,61 @@ article{
 .tourist_text{
     text-align: justify;
     padding: .5rem;
+}
+
+
+/* ###########      Related CARDS     ########### */
+.related_heading{
+    margin: 10rem 0 0;
+
+}
+.related-post{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.card{
+    padding: 2rem;
+    margin: 2rem;
+    color: #ffffff;
+    min-width: 30rem;
+    max-width: 40rem;
+  
+    flex-grow: 1;
+}
+.related-card-part{
+   
+}
+.related-card-poland{
+    background-image: url(../../images/poland.jpg);
+    background-size: cover;
+   
+}
+.related-card-usa{
+    background-image: url(../../images/usa.jpg);
+    background-size: cover;
+   
+}
+.related-card-norway{
+    background-image: url(../../images/norway.jpg);
+    background-size: cover;
+   
+}
+.related_btn,
+.related_btn:link,
+.related_btn:visited{
+    text-decoration: none;
+    background-color: rgba(255, 245, 226, 0.8);
+    border-radius: 5px;
+    color: #724e24;
+    padding: .5rem 1rem;
+    margin: 4rem 0 2rem;;
+    display: flex;
+    width: 11rem;
+    transition: transform .3s;
+
+}
+.related_btn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
