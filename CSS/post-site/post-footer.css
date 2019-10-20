@@ -11,10 +11,15 @@
     grid-column: center-start / center-end;
     grid-row: 1 /2;
 
-    display: grid;
+    /* display: grid;
     grid-template-rows: min-content;
     grid-template-columns:  repeat(2,minmax(min-content,40rem)) ;
-    grid-gap: 5rem;
+    grid-gap: 5rem; */
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+/* media query for 600 justify-content:space-evenly */
     
     
 }
@@ -24,7 +29,7 @@
     grid-column: 1 / 2;
     grid-row: 1 / -1;
 }
-.social_heading{
+.footer_heading{
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -34,8 +39,36 @@
     display: inline-block;
 }
 .newsletter{
+    padding: 5rem;
     grid-column: 2 / -1;
     grid-row: 1 / -1;
+}
+.btn{
+    font-size: 1.6rem;
+    border: none;
+    padding: .7rem 2rem;
+    border-radius: 100px;
+    margin: .5rem;
+    background-color: #f5eddc;
+    color: #855b2b;
+
+}
+.newsletter_input{
+    transition: all .2s;
+}
+.newsletter_input:focus{
+    transform: scale(1.03);
+}
+.newsletter_btn{
+    display: block;
+    transition: all .2s;
+}
+.newsletter_btn:hover,
+.newsletter_btn:active{
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+
 }
 .copyright{
     grid-column: center-start / center-end;
