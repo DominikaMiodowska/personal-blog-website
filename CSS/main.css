@@ -95,35 +95,37 @@ article{
 
 
 
-.post_text-box-btn{
+.blog_text-box-btn{
     display: flex;
     justify-content: center;
     padding-bottom: 8rem;
+}
+.post_text-box-btn{
+    margin: 2rem 0 0 5rem;
 }
 
 .post_text-btn,
 .post_text-btn:link,
 .post_text-btn:visited{
-    font-size: 2rem;
     color: #855b2b;
     text-decoration: none;
     padding: 4px 3px;
     border-bottom: 2px solid #855b2b;
     transition: all .2s;
-
+    
 }
 
 .post_text-btn:hover{
-    font-size: 2rem;
     color: #fae7d6;
     background-color: #855b2b;
+    border: none;
     border-radius: 20px;
-    padding: 1rem 3rem;
+    padding: .5rem 1.5rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
-    transform:translateY(-2px);
+    /* transform:translateY(-2px); */
 }
 
 .post_text-btn:active{
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-    transform:translateY(0);
+    /* transform:translateY(0); */
 }
