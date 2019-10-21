@@ -3,9 +3,8 @@ footer{
     grid-row: 4 /-1;
     background-color:  #855b2b;
     color: #fae7d6;
-
-   
 }
+
 .blog_footer{
     display: flex;
     justify-content: center;

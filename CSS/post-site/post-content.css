@@ -1,12 +1,16 @@
 /*  ################         AUTHOR         ############# */
-#author{
-    
+#author { 
     grid-column: center-start / center-end;
     grid-row: 2 / 3;
     font-family: 'Josefin Sans', sans-serif;
     margin: 5rem 0 2rem;
     padding: 5rem;
 }
+
+.author_heading {
+    transform: translateY(-3rem);
+}
+
 .author_shape,
 .triva_shape{
     width: 15rem;
@@ -24,26 +28,31 @@
     clip-path: circle(50% at 50% 50%);
     -webkit-shape-outside: circle(50% at 50% 50%);
     shape-outside: circle(50% at 50% 50%);
-
 }
-.author_shape-img{
+
+.author_shape-img {
     width: 100%;
     backface-visibility: hidden;
 }
-.author_text{
-padding-top: 2rem;
+
+.author_text {
+    padding-top: 2rem;
 }
-.author_text-company{
+
+.author_text-company {
     padding-bottom: 1rem;
+}
+.author_text-bio {
+    padding-left: 5rem;
 }
 
 /*  ################         POST CONTENT        ############# */
 
-article{
+article {
     grid-column: center-start / center-end;
     grid-row: 3 / 4;
 }
-.break-line{
+.break-line {
     width: 25%;
     height: 1px;
     border-top: 2px solid #dad7d0;
@@ -51,25 +60,42 @@ article{
     z-index: 3;
 }
 
-.post-content{
+.post-content {
     margin-bottom: 10rem;
 }
-.content{
+
+.content {
     padding: 5rem 3rem;
 }
-.post_heading{
+
+.post_heading {
     font-size: 3rem;
     text-align: center;
     margin-bottom: 5rem;
     color: #724e24;
     /* border-bottom: 1px solid #724e24; */
 }
-.about_text{
+
+.about_text {
     text-align: center;
 }
 
+.about_figure {
+    text-align: center;
+}
+
+.about_img {
+    width: 60%;
+    margin: 4rem auto 0;
+}
+
+figcaption {
+    outline: none;
+}
+
 /* ###########      TRIVA SECTION CARDS     ########### */
-.triva_card{
+
+.triva_card {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -79,23 +105,28 @@ article{
     border-radius: 15px;
     box-shadow: 0 1.5rem 4rem rgba(106, 103, 103, 0.1);
 }
-.triva_card:hover .triva_shape-caption{
+
+.triva_card:hover .triva_shape-caption {
     opacity: 1;
     transform: translate(-50%, -50%);
 }
 
-.triva_card:hover .triva_shape-img{
+.triva_card:hover .triva_shape-img {
     transform: translateX(-4rem) scale(1.25);
     filter: blur(3px) brightness(80%);
 }
+.triva_card-text {
+    padding-left: 12rem;
+}
 
-.triva_shape-img{
+.triva_shape-img {
     width: 160%;
     transform: translateX(-5rem) scale(1.1); 
     backface-visibility: hidden;
     transition: all .5s;
- }
-.triva_shape-caption{
+}
+
+.triva_shape-caption {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -106,30 +137,31 @@ article{
     opacity: 0;
     transition: all .5s;
     backface-visibility: hidden;
-    
 }
 
 /* ###########      TOURIST SECTION CARDS     ########### */
-.tourist{
+
+.tourist {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 7rem;
 }
 
-.tourist-card{
+.tourist-card {
     display: grid;
     grid-template-columns: 1fr;
     border: 1px solid #f5eddc; 
     box-shadow: 0 1.5rem 4rem rgba(106, 103, 103, 0.1);
-       
 }
-.tourist_img{
+
+.tourist_img {
     width: 100%;
     grid-row: 1/2;
     grid-column: 1/-1;
     z-index: 1;
 }
-.tourist_name{
+
+.tourist_name {
     grid-row: 1/2;
     grid-column: 1/-1;
     justify-self: center;
@@ -141,50 +173,50 @@ article{
     padding: 1.2rem;
     font-size: 1.6rem;  
 }
-.tourist_text{
+
+.tourist_text {
     text-align: justify;
     padding: .5rem;
 }
 
-
 /* ###########      Related CARDS     ########### */
-.related_heading{
-    margin: 10rem 0 0;
 
+.related_heading {
+    margin: 10rem 0 0;
 }
-.related-post{
+
+.related-post {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
-.card{
+.card {
     padding: 2rem;
     margin: 2rem;
     color: #ffffff;
     min-width: 30rem;
     max-width: 40rem;
-  
     flex-grow: 1;
 }
 
-.related-card-poland{
+.related-card-poland {
     background-image: url(../../images/poland.jpg);
     background-size: cover;
-   
 }
-.related-card-usa{
+
+.related-card-usa {
     background-image: url(../../images/usa.jpg);
     background-size: cover;
-   
 }
-.related-card-norway{
+
+.related-card-norway {
     background-image: url(../../images/norway.jpg);
-    background-size: cover;
-   
+    background-size: cover;   
 }
+
 .related_btn,
 .related_btn:link,
-.related_btn:visited{
+.related_btn:visited {
     text-decoration: none;
     background-color: rgba(255, 245, 226, 0.8);
     border-radius: 5px;
@@ -196,9 +228,9 @@ article{
     width: 12rem;
     font-weight: 600;
     transition: transform .3s;
-
 }
-.related_btn:hover{
+
+.related_btn:hover {
     cursor: pointer;
     transform: scale(1.05);
 }

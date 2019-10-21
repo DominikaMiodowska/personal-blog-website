@@ -3,24 +3,22 @@
 @media (max-width: 900px) {
     html {
         font-size: 56.25%;
-         
-        }
-    .container {
+    }
+
+    #container{
         grid-template-rows: 40vh min-content min-content;
     }
-    
 }
+
 @media (max-width: 640px) {
     html {
         font-size: 37.5%;
     }
-    .container-post{
+
+    #container-post{
         grid-template-rows: 40vh min-content min-content min-content min-content;
-
     }
-    
   }
-
 
 /* ##################     BLOG SITE   ##################       */
 
@@ -28,6 +26,7 @@
     .post-card_box{
         width: 70%;
     }
+
     .post_card_swiss{
         background-image: linear-gradient(105deg,
         rgba(234, 221, 196, 0.9) 0%,
@@ -61,31 +60,46 @@
     .link-blog-header{
         font-size: 3rem;
     }
+
     .header_navbar-left{
         margin-right: 10rem;
         margin-top: 2.5rem;
     }
   }
 
-@media (max-width: 424px) {
-    nav{
+@media (max-width: 460px) {
+    .header_nav{
         justify-content: center;
     }
+
+    .header_navbar-left{
+        margin-right: 10rem;
+        margin-left: 10rem;
+         margin-top: 2.5rem;
+     }
+}
+
+@media (max-width: 424px) {
+    
+
     .link-blog-header{
         font-size: 3rem;
     }
+
     .header_navbar{
         margin: 2rem 0;
     }
+
     .header_navbar-left{
-       margin-right: 10rem;
-       margin-left: 10rem;
-        margin-top: 2.5rem;
-    }
+        margin-right: 10rem;
+        margin-left: 10rem;
+         margin-top: 2.5rem;
+     }    
     
     .post-card_box{
         width: 100%;
     }
+
     .post_card_swiss{
         background-image: linear-gradient(105deg,
         rgba(234, 221, 196, 0.9) 0%,
@@ -113,11 +127,10 @@
         100%, transparent 100%),
         url(./../images/norway.jpg);/*Photo by Chris Holgersson on Unsplash*/
     }
-
   }
 
-
 /* ##################     POST SITE   ##################      */
+
 @media (max-width: 424px) {
     .social,
     .newsletter{

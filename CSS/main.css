@@ -2,6 +2,7 @@ article{
     grid-column: center-start / center-end;
     grid-row: 2 / 3;
 }
+
 .post_card{
     width:95%;
     margin: 8rem auto ;
@@ -10,8 +11,8 @@ article{
     box-shadow: 0 1.5rem 4rem rgba(106, 103, 103, 0.1);
     background-size: cover;
     background-position:center;
-
 }
+
 .post-card_box{
     width: 50%;
     padding: 6rem;
@@ -23,14 +24,17 @@ article{
 .post_card_box-text{
     padding-bottom: 2rem;
 }
+
 .post_card_box-date{
     font-style: italic;   
 }
+
 .post-link:link,
 .post-link:visited{
     color: #855b2b;
     text-decoration: none;
-} 
+}
+
 .post_card-button,
 .post_card-button:link,
 .post_card-button:visited{
@@ -47,13 +51,14 @@ article{
     display: block;
     width: 20rem;
     box-shadow: 0 .4rem .5rem rgba(0, 0, 0, .2);
-
 }
+
 .post_card-button:hover{
     cursor: pointer;
     transform: scale(1.05);
     box-shadow: 0 1rem 2rem rgba(65, 10, 10, 0.2);
 }
+
 .post_card-button:active{
     transform: scale(.98);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
@@ -61,28 +66,28 @@ article{
 
 .post_card_swiss{
     background-image: linear-gradient(105deg,
-                                    rgba(234, 221, 196, 0.9) 0%,
-                                    50%, transparent 50%),
-                                    url(./../images/swiss.jpg);/*Photo by Chris Holgersson on Unsplash*/
+                    rgba(234, 221, 196, 0.9) 0%,
+                    50%, transparent 50%),
+                    url(./../images/swiss.jpg);/*Photo by Chris Holgersson on Unsplash*/
 }
 
 .post_card_poland{
     background-image: linear-gradient(105deg,
-                                    rgba(234, 221, 196, 0.9) 0%,
-                                    50%, transparent 50%),
-                                    url(./../images/poland.jpg);/*Photo by Kamil Gliwiński on Unsplash*/  
+                    rgba(234, 221, 196, 0.9) 0%,
+                    50%, transparent 50%),
+                    url(./../images/poland.jpg);/*Photo by Kamil Gliwiński on Unsplash*/  
 }
 .post_card_usa{
     background-image: linear-gradient(105deg,
-                                    rgba(234, 221, 196, 0.9) 0%,
-                                    50%, transparent 50%),
-                                    url(./../images/usa.jpg);/*Photo by Luca Bravo on Unsplash*/   
+                    rgba(234, 221, 196, 0.9) 0%,
+                    50%, transparent 50%),
+                    url(./../images/usa.jpg);/*Photo by Luca Bravo on Unsplash*/   
 }
 .post_card_norway{
     background-image: linear-gradient(105deg,
-                                    rgba(234, 221, 196, 0.9) 0%,
-                                    50%, transparent 50%),
-                                    url(./../images/norway.jpg);/*Photo by Lightscape on Unsplash*/   
+                    rgba(234, 221, 196, 0.9) 0%,
+                    50%, transparent 50%),
+                    url(./../images/norway.jpg);/*Photo by Lightscape on Unsplash*/   
 }
 
 .blog_text-box-btn{
@@ -90,6 +95,7 @@ article{
     justify-content: center;
     padding-bottom: 8rem;
 }
+
 .post_text-box-btn{
     margin: 2rem 0 0 5rem;
 }
@@ -102,7 +108,6 @@ article{
     padding: 4px 3px;
     border-bottom: 2px solid #855b2b;
     transition: all .2s;
-    
 }
 
 .post_text-btn:hover{
@@ -112,10 +117,8 @@ article{
     border-radius: 20px;
     padding: .5rem 1.5rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
-    /* transform:translateY(-2px); */
 }
 
 .post_text-btn:active{
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-    /* transform:translateY(0); */
 }
