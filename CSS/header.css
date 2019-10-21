@@ -21,15 +21,17 @@
 nav{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     grid-column: center-start / center-end;
     grid-row: 1 / 2;
-
-    
 }
+
 .header_navbar{
     margin:3rem 0;
     font-weight: 600;
-    
+}
+.header_navbar-left{
+    margin-right: 10rem;
 }
 
 .link-header{
@@ -70,7 +72,7 @@ nav{
 }
 .blog-title{
     color: #e49903;
-
+    margin-top: 12rem;
 }
 .blog-title-text,
 .post-title-text{

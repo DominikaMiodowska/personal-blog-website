@@ -14,7 +14,6 @@ html{
 body{
     background-color: #fcf6e9;
     color: #000000;
-    /* font-family: 'Josefin Sans', sans-serif; */
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
     line-height: 1.6;
@@ -26,8 +25,10 @@ body{
     display: grid;
     grid-template-rows: 60vh min-content min-content;
     grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content,14rem)[col-end]) [center-end] 1fr [full-end];
-    
-    /* grid-template-columns:[full-start] minmax(6rem,1fr) [center-start] 
-    repeat(8, [col-start] minmax(min-content, 14rem)[col-end]) [center-end]  minmax(6rem,1fr) [full-end]; */
+
+} 
+.container-post{
+    display: grid;
+    grid-template-rows: 60vh min-content min-content min-content min-content;
+    grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content,14rem)[col-end]) [center-end] 1fr [full-end];
 }
- 
