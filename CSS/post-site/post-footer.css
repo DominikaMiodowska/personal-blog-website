@@ -60,6 +60,7 @@
 
 .newsletter_input:focus {
     transform: scale(1.03);
+    outline: none;
 }
 
 .newsletter_btn {

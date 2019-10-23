@@ -16,10 +16,10 @@
         <header class="post-header">
             <nav class="header_nav">
                 <div class="header_navbar header_navbar-left">
-                <a href="blog-site.html" class="header_navbar-item link-header link-blog-header">Travel Adventure</a>
+                <a href="blog-site.html" class="header_navbar-item link-header link-blog-header" aria-label="Homepage">Travel Adventure</a>
                 </div>
                 <div class="header_navbar">
-                    <a href="#" class="header_navbar-item link-header">ABOUT</a>
+                    <a href="#" class="header_navbar-item link-header" aria-label="About Authors Blog">ABOUT</a>
                     <a href="#" class="header_navbar-item link-header">SAMPLE POST</a>
                     <a href="#" class="header_navbar-item link-header">CONTACT</a>
                 </div>
@@ -27,7 +27,7 @@
         <div class="title post-title">
             <h1 class="post-title-heading">Explore Switzerland</h1>
             <h3 class="post-title-text">all about traveling</h3>
-            <blockquote class="header_quote" cite="https://www.brainyquote.com/quotes/michele_bachmann_561055">
+            <blockquote class="header_quote">
                 <p><q><em>It’s tough to find a place not to like in Switzerland.</em></q></p>— Michele Bachmann
             </blockquote>            
         </div>
@@ -60,7 +60,7 @@
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore voluptates rerum minus, velit cum deleniti quibusdam omnis doloremque nam voluptas eius ipsum, fugiat et dignissimos. Officia repellendus perspiciatis quos minima! Temporibus, aut ex quia id architecto blanditiis inventore adipisci aspernatur, officiis nisi neque praesentium. Dolore architecto nemo saepe aliquid libero temporibus placeat voluptatibus, delectus numquam repellendus ad nam autem nisi ex asperiores corrupti assumenda consequuntur vero dicta natus voluptate aliquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A obcaecati temporibus repellat nisi, laborum blanditiis cumque fuga labore explicabo Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat numquam earum corrupti, vitae qui molestias! Alias ab blanditiis iste aliquid! Quo, optio deserunt explicabo consequatur ducimus quibusdam mollitia fugit nisi. Dolore quidem labore necessitatibus commodi a corporis ullam ratione ab voluptates rerum minus, velit cum deleniti quibusdam omnis doloremque nam voluptas eius ipsum, fugiat et dignissimos. Officia repellendus perspiciatis quos minima! Temporibus, aut ex quia id architecto blanditiis inventore adipisci aspernatur, officiis nisi neque praesentium. Dolore architecto nemo saepe aliquid libero temporibus placeat voluptatibus, delectus numquam repellendus ad nam autem nisi ex asperiores corrupti assumenda consequuntur vero dicta natus voluptate aliquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A obcaecati temporibus repellat nisi, laborum blanditiis cumque fuga labore explicabo Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat numquam earum corrupti, vitae qui molestias! Alias ab blanditiis iste aliquid! Quo, optio deserunt explicabo consequatur ducimus quibusdam mollitia fugit nisi. Dolore quidem labore necessitatibus commodi a corporis ullam ratione ab.
                     </p>
                     <figure class="about_figure">
-                        <img src="../images/Luzern.jpg" alt="Luzern" class="about_img" city="https://unsplash.com/photos/1ygcttSDSiY">
+                        <img src="../images/Luzern.jpg" alt="Luzern" class="about_img" aria-label="An image of Lucerne"><!-- Phhoto by https://unsplash.com/photos/1ygcttSDSiY-->
                         <figcaption class="about_figcaption">Lucerne covered wooden bridge</figcaption>
                     </figure>
                 </div>
@@ -153,17 +153,17 @@
                 <div class="related-card-poland card">
                     <h2 class="related_name">Explore Poland</h2>
                     <p class="related_date">Posted on 6. September, 2019 </p>
-                    <a class="related_btn" href="post-site.html" >Read more...</a>
+                    <a class="related_btn" href="post-site.html" aria-label="Read post">Read more...</a>
                 </div>
                 <div class="related-card-usa card">
                     <h2 class="related_name">Explore USA</h2>
                     <p class="related_date">Posted on 6. September, 2019 </p>
-                    <a class="related_btn" href="post-site.html" >Read more...</a>
+                    <a class="related_btn" href="post-site.html" aria-label="Read post">Read more...</a>
                 </div>
                 <div class="related-card-norway card">
                     <h2 class="related_name">Explore Norway</h2>
                     <p class="related_date">Posted on 6. September, 2019 </p>
-                    <a class="related_btn" href="post-site.html" >Read more...</a>
+                    <a class="related_btn" href="post-site.html" aria-label="Read post">Read more...</a>
                 </div>
             </div>
         </article>        
@@ -177,8 +177,10 @@
                 </div>
                 <div class="newsletter">
                     <h2 class="footer_heading">Newsletter Sign up</h2>
-                    <input class="newsletter_input btn" name="email" type="text" placeholder="email@email.com">
-                    <button class="newsletter_btn btn" type="submit">Subscribe</button>
+                    <form id="form-newsleter">
+                        <input class="newsletter_input btn" name="email" type="email" placeholder="email@email.com">
+                    </form>
+                    <button class="newsletter_btn btn" type="submit" form="form-newsleter">Subscribe</button>
                 </div>
             </div>
             <div class="copyright">
