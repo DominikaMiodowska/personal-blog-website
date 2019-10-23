@@ -1,17 +1,17 @@
 *,
 *::before,
-*::after{
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
 }
 
-html{
+html {
     font-size: 62.5%;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #fcf6e9;
     color: #000000;
     font-family: 'Nunito', sans-serif;
@@ -20,13 +20,13 @@ body{
     font-size: 1.6rem;
 }
 
-#container{
+#container {
     display: grid;
     grid-template-rows: 60vh min-content min-content;
     grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content,14rem)[col-end]) [center-end] 1fr [full-end];
 } 
 
-#container-post{
+#container-post {
     display: grid;
     grid-template-rows: 60vh min-content min-content min-content min-content;
     grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content,14rem)[col-end]) [center-end] 1fr [full-end];

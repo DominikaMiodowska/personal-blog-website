@@ -1,4 +1,4 @@
-.blog-header{
+.blog-header {
     grid-column: full-start / full-end;
     grid-row: 1 / 2;
     background-image:linear-gradient(
@@ -14,7 +14,7 @@
     grid-template-rows: 10rem 30rem;
     grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content,14rem)[col-end]) [center-end] 1fr [full-end];
 }
-.header_nav{
+.header_nav {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -22,30 +22,30 @@
     grid-row: 1 / 2;
 }
 
-.header_navbar{
+.header_navbar {
     margin:3rem 0;
     font-weight: 600;
 }
 
-.header_navbar-left{
+.header_navbar-left {
     margin-right: 12rem;
 }
 
-.link-header{
+.link-header {
     font-size: 2rem;
     padding: 1rem; 
     transition: all .3s ;
 }
 
 .link-header:link,
-.link-header:visited{
+.link-header:visited {
     color: #724e24;
     text-decoration: none;
 }
 
 .link-header:hover,
 .link-header:active,
-.link-header:focus{
+.link-header:focus {
     color: #e49903;
     -webkit-transform: scale(1.5);
     -moz-transform: scale(1.5);
@@ -53,12 +53,12 @@
     outline: none;
 }
 
-.header_navbar-item{
+.header_navbar-item {
     padding: 1rem;
     margin-left: 1rem;
 }
 
-.title{
+.title {
     margin-top: 4rem;
     text-align: center;
     font-size: 2.3rem;
@@ -66,13 +66,13 @@
     grid-row: 2 / -1;
 }
 
-.blog-title{
+.blog-title {
     color: #e49903;
     margin-top: 12rem;
 }
 
 .blog-title-text,
-.post-title-text{
+.post-title-text {
     font-weight: 300;
 }
 

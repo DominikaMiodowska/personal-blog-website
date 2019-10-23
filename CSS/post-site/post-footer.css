@@ -44,7 +44,7 @@
     grid-row: 1 / -1;
 }
 
-.btn{
+.btn {
     font-size: 1.6rem;
     border: none;
     padding: .7rem 2rem;
@@ -54,27 +54,27 @@
     color: #855b2b;
 }
 
-.newsletter_input{
+.newsletter_input {
     transition: all .2s;
 }
 
-.newsletter_input:focus{
+.newsletter_input:focus {
     transform: scale(1.03);
 }
 
-.newsletter_btn{
+.newsletter_btn {
     display: block;
     transition: all .2s;
 }
 
 .newsletter_btn:hover,
-.newsletter_btn:active{
+.newsletter_btn:active {
     cursor: pointer;
     transform: scale(1.03);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
 }
 
-.copyright{
+.copyright {
     grid-column: center-start / center-end;
     grid-row: 2/-1;
     text-align: center;

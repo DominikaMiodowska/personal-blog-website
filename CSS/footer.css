@@ -1,11 +1,11 @@
-footer{
+footer {
     grid-column: full-start / full-end;
     grid-row: 4 /-1;
     background-color:  #855b2b;
     color: #fae7d6;
 }
 
-.blog_footer{
+.blog_footer {
     display: flex;
     justify-content: center;
    padding: 3rem 0;

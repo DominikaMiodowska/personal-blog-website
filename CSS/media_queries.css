@@ -5,18 +5,26 @@
         font-size: 56.25%;
     }
 
-    #container{
+    #container {
         grid-template-rows: 40vh min-content min-content;
     }
 }
 
 @media (max-width: 640px) {
     html {
-        font-size: 37.5%;
+        font-size: 43.5%;
     }
 
-    #container-post{
+    #container-post {
         grid-template-rows: 40vh min-content min-content min-content min-content;
+    }
+  }
+@media (max-width: 400px) {
+    #container {
+        grid-template-rows: 50vh min-content min-content;
+    }
+    #container-post {
+        grid-template-rows: 60vh min-content min-content min-content min-content;
     }
   }
 
@@ -27,21 +35,21 @@
         width: 70%;
     }
 
-    .post_card_swiss{
+    .post_card_swiss {
         background-image: linear-gradient(105deg,
         rgba(234, 221, 196, 0.9) 0%,
         70%, transparent 70%),
         url(./../images/swiss.jpg);/*Photo by Chris Holgersson on Unsplash*/
     }
     
-    .post_card_poland{
+    .post_card_poland {
         background-image: linear-gradient(105deg,
         rgba(234, 221, 196, 0.9) 0%,
         70%, transparent 70%),
         url(./../images/poland.jpg);/*Photo by Chris Holgersson on Unsplash*/
     }
     
-    .post_card_usa{
+    .post_card_usa {
         background-image: linear-gradient(105deg,
         rgba(234, 221, 196, 0.9) 0%,
         70%, transparent 70%),
@@ -61,18 +69,22 @@
         font-size: 3rem;
     }
 
-    .header_navbar-left{
+    .header_navbar-left {
         margin-right: 10rem;
         margin-top: 2.5rem;
     }
-  }
+    
+    .triva_card-text {
+        padding-left: 0;
+    }
+}
 
 @media (max-width: 460px) {
     .header_nav{
         justify-content: center;
     }
 
-    .header_navbar-left{
+    .header_navbar-left {
         margin-right: 10rem;
         margin-left: 10rem;
          margin-top: 2.5rem;
@@ -80,41 +92,42 @@
 }
 
 @media (max-width: 424px) {
-    
-
-    .link-blog-header{
+    .link-blog-header {
         font-size: 3rem;
     }
+    .title {
+        font-size: 2rem;
+    }
 
-    .header_navbar{
+    .header_navbar {
         margin: 2rem 0;
     }
 
-    .header_navbar-left{
+    .header_navbar-left {
         margin-right: 10rem;
         margin-left: 10rem;
          margin-top: 2.5rem;
      }    
     
-    .post-card_box{
+    .post-card_box {
         width: 100%;
     }
 
-    .post_card_swiss{
+    .post_card_swiss {
         background-image: linear-gradient(105deg,
         rgba(234, 221, 196, 0.9) 0%,
         100%, transparent 100%),
         url(./../images/swiss.jpg);/*Photo by Chris Holgersson on Unsplash*/
     }
     
-    .post_card_poland{
+    .post_card_poland {
         background-image: linear-gradient(105deg,
         rgba(234, 221, 196, 0.9) 0%,
         100%, transparent 100%),
         url(./../images/poland.jpg);/*Photo by Chris Holgersson on Unsplash*/
     }
     
-    .post_card_usa{
+    .post_card_usa {
         background-image: linear-gradient(105deg,
         rgba(234, 221, 196, 0.9) 0%,
         100%, transparent 100%),
@@ -133,7 +146,7 @@
 
 @media (max-width: 424px) {
     .social,
-    .newsletter{
+    .newsletter {
         margin-left: auto;
         margin-right: auto;
     }
